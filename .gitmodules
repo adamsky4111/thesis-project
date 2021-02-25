@@ -1,0 +1,6 @@
+[submodule "apps/api"]
+	path = apps/api
+	url = git@github.com:adamsky4111/thesis-backend.git
+[submodule "apps/frontend"]
+	path = apps/frontend
+	url = git@github.com:adamsky4111/thesis-frontend.git
