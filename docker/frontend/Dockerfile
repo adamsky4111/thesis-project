@@ -6,8 +6,5 @@ WORKDIR /usr/src/apps/frontend
 
 COPY --chown=1000:1000 apps/frontend /usr/src/apps/frontend
 
-RUN npm install
-
-
 
 CMD [ "http-server", "dist" ]
