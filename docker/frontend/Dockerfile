@@ -8,6 +8,6 @@ COPY --chown=1000:1000 apps/frontend /usr/src/apps/frontend
 
 RUN npm install
 
-RUN npm run build
+
 
 CMD [ "http-server", "dist" ]
